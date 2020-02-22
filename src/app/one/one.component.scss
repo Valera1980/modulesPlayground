@@ -1,0 +1,13 @@
+.main{
+    &__submenu {
+        margin: 8px;
+    }
+    &__link{
+        margin-left: 8px;
+    }
+    &__route-section{
+        width: 500px;
+        height: 500px;
+        background-color: #ffee33;
+    }
+}

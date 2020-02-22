@@ -1,0 +1,9 @@
+<section class="main">
+   <div class="main__submenu">
+       <a class="main__link" [routerLink]="['news']" routerLinkActive="router-link-active" >новости</a>
+       <a class="main__link" [routerLink]="['actions']" routerLinkActive="router-link-active" >акции</a>
+   </div>
+   <div class="main__route-section">
+        <router-outlet></router-outlet>
+   </div>
+</section>
